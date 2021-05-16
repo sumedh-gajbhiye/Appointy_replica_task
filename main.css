@@ -1,0 +1,95 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+
+
+nav{
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+}
+
+.nav-item{
+    padding-right: 10px;
+}
+
+.btn{
+    padding: 10px 45px;
+    border-radius: 30px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #7b4397 20%, #dc2430  80%)}
+.btn-grad {
+    padding: 10px 40px;
+    text-align: center;
+    color: white;            
+ }
+
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.d-flex{
+ flex-wrap:wrap;
+ justify-content:space-around
+}
+
+.feature-box{
+    text-align: left;
+}
+
+.jumbotron{
+    border-radius: 10px;
+}
+
+#apps{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ln-button{
+    border-width: 3px;
+    color:#d93464;
+    border-color:#d93464 ;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+.card{
+    padding:50px;
+}
+.comment{
+    font-size: 0.75rem;
+    text-align: left;
+    border-radius: 30px;
+    background-color: rgb(225, 226, 226);
+    padding: 10px;
+}
+
+.image-adjust{
+    width: 130px;
+    height: 50px
+    ;
+}
+section{
+    background-color:whitesmoke;
+}
+
+.photo{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.heading{
+    text-align: center;
+}
